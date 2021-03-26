@@ -23,12 +23,3 @@ result = html.find('<b>Truth')
 print(result)
 print(getPageTitle(url))
 for link in urls:
-    
-    newLink = str(link)
-    if newLink != 'None':
-        
-        print(type(link))
-        index = html.find(newLink)
- #   if index > result:
-#        if index !=45555: 
-            #possibleLinks.append(urls.index(link))
