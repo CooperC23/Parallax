@@ -23,3 +23,5 @@ result = html.find('<b>Truth')
 print(result)
 print(getPageTitle(url))
 for link in urls:
+    newLink = str(link)
+    print(newLink)
